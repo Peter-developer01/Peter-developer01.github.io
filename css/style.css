@@ -1,0 +1,77 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #CECECE;
+	padding: 10px 160px;
+}
+
+header .logo img {
+	border-radius: 50%;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	gap: 30px
+}
+
+nav a {
+	color: rgb(5, 5, 8);
+	text-decoration: none;
+	border-bottom: 0.2px solid rgb(10, 10, 10);
+	font-size: 18px;
+}
+
+nav a:hover {
+	color: rgb(0, 0, 255);
+	border-color: rgb(0, 0, 255);
+}
+
+nav a.selected {
+	color: rgb(0, 0, 255);
+	cursor: default;
+	border: none;
+}
+
+.social a:hover img {
+	scale: 1.1;
+}
+
+main {
+	/* calculared based on the header height plus 10 px */
+	margin-top: calc(95px + 10px);
+}
+
+section .container {
+	max-width: 1163px;
+	margin: 0 auto;
+}
+
+.about figure {
+	float: right;
+}
+
+figcaption {
+	font: italic 13px sans-serif;
+	padding: 3px;
+	text-align: center;
+	color: #585858;
+}
+
+.about .avatar {
+	border-radius: 3px;
+}
