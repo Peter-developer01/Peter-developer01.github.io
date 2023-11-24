@@ -75,3 +75,8 @@ figcaption {
 .about .avatar {
 	border-radius: 3px;
 }
+
+.skill-icon {
+	width: 20px;
+	height: 20px;
+}
