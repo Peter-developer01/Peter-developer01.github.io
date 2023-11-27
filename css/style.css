@@ -80,3 +80,7 @@ figcaption {
 	width: 20px;
 	height: 20px;
 }
+
+.avatars {
+	list-style-type: none;
+}
