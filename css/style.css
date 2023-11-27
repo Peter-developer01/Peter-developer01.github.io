@@ -84,3 +84,16 @@ figcaption {
 .avatars {
 	list-style-type: none;
 }
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	/* transition: all 0.3s ease-in-out; */
+	/* opacity: 0.6; */
+}
+
+/* uncomment this and two lines above if you wanna have an animation but I think it's not needed */
+/* hr:hover {
+	opacity: 1;
+} */
