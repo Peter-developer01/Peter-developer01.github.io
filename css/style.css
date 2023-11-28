@@ -6,10 +6,8 @@ body {
 }
 
 header {
-	position: fixed;
+	position: sticky;
 	top: 0;
-	left: 0;
-	right: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -49,11 +47,6 @@ nav a.selected {
 
 .social a:hover img {
 	scale: 1.1;
-}
-
-main {
-	/* calculared based on the header height plus 10 px */
-	margin-top: calc(95px + 10px);
 }
 
 section .container {
