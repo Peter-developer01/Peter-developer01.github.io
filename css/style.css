@@ -69,6 +69,10 @@ figcaption {
 	border-radius: 3px;
 }
 
+img[src="img/avatars/main.png"] {
+	filter: brightness(2.0);
+}
+
 .skill-icon {
 	width: 20px;
 	height: 20px;
