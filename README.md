@@ -1,4 +1,5 @@
 # Peter-developer01.github.io
-MY GITHUB PAGE
 
-<!-- TODO: Time to care a bit about it! -->
+Hi there! I'm a developer. This repository is my portfolio.
+
+You can watch it online at <https://peter-developer01.github.io>!
