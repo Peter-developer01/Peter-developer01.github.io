@@ -97,3 +97,8 @@ hr {
 /* hr:hover {
 	opacity: 1;
 } */
+
+.email img {
+	position: relative;
+	top: 2px;
+}
