@@ -102,3 +102,10 @@ hr {
 	position: relative;
 	top: 2px;
 }
+
+footer {
+	background: #CECECE;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
